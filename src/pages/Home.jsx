@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import Heading from '../components/Heading';
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
                {/* Banner */}
                <Banner />
                 {/* HEADING */}
+                <Heading title='Explore Cutting-Edge Gadgets' subtitle='This is a subtitle'/>
                 {/* Categories section */}
             {/* Dynamic Nested Component */}
             
