@@ -1,0 +1,135 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Samsung Galaxy Z Fold 4",
+      "product_image": "https://i.ibb.co.com/h7t81xK/Samsung-Galaxy-Z-Fold-4-1.jpg",
+      "category": "Smartphones",
+      "price": 1799.99,
+      "description": "Samsung Galaxy Z Fold 4 with foldable 7.6-inch display, 5G, and 12GB RAM.",
+      "Specification": ["7.6-inch Foldable Display", "12GB RAM", "4400mAh Battery", "5G Connectivity"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 2,
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://i.ibb.co.com/TWBnjfH/i-Phone-14-Pro-Max-2.jpg",
+      "category": "Smartphones",
+      "price": 1199.00,
+      "description": "Apple iPhone 14 Pro Max with A16 Bionic chip, ProMotion 120Hz display, and advanced camera system.",
+      "Specification": ["A16 Bionic", "120Hz Display", "48MP Main Camera", "4323mAh Battery"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 3,
+      "product_title": "Google Pixel 7",
+      "product_image": "https://i.ibb.co.com/RQ0HCwj/Google-Pixel-7-3.jpg",
+      "category": "Smartphones",
+      "price": 649.00,
+      "description": "Google Pixel 7 with Google Tensor G2 chip, high-quality 50MP dual camera, and long-lasting battery.",
+      "Specification": ["Google Tensor G2", "50MP Dual Camera", "4355mAh Battery", "IP68 Water Resistance"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "OnePlus 10 Pro",
+      "product_image": "https://i.ibb.co.com/Rp6HFjm/One-Plus-10-Pro-4.jpg",
+      "category": "Smartphones",
+      "price": 899.99,
+      "description": "OnePlus 10 Pro with Snapdragon 8 Gen 1, Fluid AMOLED display, and Hasselblad camera.",
+      "Specification": ["Snapdragon 8 Gen 1", "120Hz AMOLED", "5000mAh Battery", "80W Fast Charging"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "Sony Xperia 5 IV",
+      "product_image": "https://i.ibb.co.com/YbYyv9M/Sony-Xperia-5-IV-5.jpg",
+      "category": "Smartphones",
+      "price": 999.99,
+      "description": "Sony Xperia 5 IV with 120Hz OLED display, 12MP triple camera, and high-resolution audio support.",
+      "Specification": ["120Hz OLED", "12MP Triple Camera", "5000mAh Battery", "High-Res Audio"],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": 6,
+      "product_title": "Xiaomi 12 Pro",
+      "product_image": "https://i.ibb.co.com/G5CZSxQ/Xiaomi-12-Pro-6.jpg",
+      "category": "Smartphones",
+      "price": 849.99,
+      "description": "Xiaomi 12 Pro with Snapdragon 8 Gen 1, 120W fast charging, and 50MP triple camera setup.",
+      "Specification": ["Snapdragon 8 Gen 1", "50MP Triple Camera", "4600mAh Battery", "120W Fast Charging"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 7,
+      "product_title": "Motorola Edge 30 Ultra",
+      "product_image": "https://i.ibb.co.com/F4Khxcs/Motorola-Edge-30-Ultra-7.jpg",
+      "category": "Smartphones",
+      "price": 799.99,
+      "description": "Motorola Edge 30 Ultra with Snapdragon 8+ Gen 1, 144Hz OLED display, and 200MP main camera.",
+      "Specification": ["Snapdragon 8+ Gen 1", "144Hz OLED", "200MP Camera", "125W Fast Charging"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 8,
+      "product_title": "Vivo X80 Pro",
+      "product_image": "https://i.ibb.co.com/Rp00K9r/Vivo-X80-Pro-8.jpg",
+      "category": "Smartphones",
+      "price": 899.99,
+      "description": "Vivo X80 Pro with Snapdragon 8 Gen 1, ZEISS optics, and 4700mAh battery with fast charging.",
+      "Specification": ["Snapdragon 8 Gen 1", "ZEISS Optics", "4700mAh Battery", "80W Fast Charging"],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": 9,
+      "product_title": "Oppo Reno8 Pro 5G",
+      "product_image": "https://i.ibb.co.com/hmL5bLM/Oppo-Reno8-Pro-5-G-9.jpg",
+      "category": "Smartphones",
+      "price": 599.99,
+      "description": "Oppo Reno8 Pro 5G with MediaTek Dimensity 8100-MAX, 50MP camera, and 4500mAh battery.",
+      "Specification": ["MediaTek Dimensity 8100", "50MP Camera", "4500mAh Battery", "80W Fast Charging"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 10,
+      "product_title": "Realme GT 2 Pro",
+      "product_image": "https://i.ibb.co.com/1JZDW6B/Realme-GT-2-Pro-10.jpg",
+      "category": "Smartphones",
+      "price": 749.99,
+      "description": "Realme GT 2 Pro with Snapdragon 8 Gen 1, 2K AMOLED display, and stainless steel vapor cooling.",
+      "Specification": ["Snapdragon 8 Gen 1", "2K AMOLED", "5000mAh Battery", "65W Fast Charging"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 11,
+      "product_title": "Honor Magic4 Pro",
+      "product_image": "https://i.ibb.co.com/x2DbC97/Honor-Magic4-Pro-11.jpg",
+      "category": "Smartphones",
+      "price": 1099.99,
+      "description": "Honor Magic4 Pro with Snapdragon 8 Gen 1, 100W fast wireless charging, and 4600mAh battery.",
+      "Specification": ["Snapdragon 8 Gen 1", "100W Wireless Charging", "50MP Triple Camera", "4600mAh Battery"],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": 12,
+      "product_title": "Nokia X30 5G",
+      "product_image": "https://i.ibb.co.com/tD5t5Kg/nokia-12.jpg",
+      "category": "Smartphones",
+      "price": 549.99,
+      "description": "Nokia X30 5G with eco-friendly design, Snapdragon 695, and PureView camera system.",
+      "Specification": ["Snapdragon 695", "PureView Camera", "4200mAh Battery", "33W Fast Charging"],
+      "availability": true,
+      "rating": 4.3
+    }
+  ]
+  
