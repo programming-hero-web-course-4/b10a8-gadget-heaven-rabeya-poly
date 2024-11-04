@@ -1,9 +1,27 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
+
+import MainLayout from "../layouts/MainLayout";
+import Home from "../pages/Home";
+import Statistics from "../pages/Statistics";
+import Dashboard from "../pages/Dashboard";
 const routes = createBrowserRouter([
     {
-      path: "/",
-      element: <App/>,
+      path: '/',
+      element: <MainLayout />,
+      children: [
+        {
+        path: '/',
+        element: <Home />
+        },
+        {
+            path: '/statistics',
+            element: <Statistics />
+            },
+            {
+                path: '/dashboard',
+                element: <Dashboard />
+                },
+      ],
     },
   ]);
 
