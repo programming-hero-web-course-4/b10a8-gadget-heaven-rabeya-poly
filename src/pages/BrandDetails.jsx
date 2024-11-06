@@ -1,19 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import { addCart } from '../utilities';
-import { getAllCart } from '../utilities';
+import { addCart, getAllCart } from '../utilities';
+
 const BrandDetails = () => {
     const data = useLoaderData()
     const {id} = useParams()
     const [product,setProduct] = useState({})
+    
+    const [isFavorite, setIsFavorite] = useState(false)
+
     useEffect(()=>{
-        const singleData = data.find(product=>product.id === parseInt.id)
+        const singleData = data.find(product=>product.id == parseInt.id)
    setProduct(singleData)
-    },[data,id])
+   const cart = getAllCart()
+   const isExist = cart.find(item =>item.id == product.id)
+   if(isExist){
+    setIsFavorite(true) 
+   }   
+ },[data,id])
+
 
     //handle add to cart btn click
     const handleAddCart =(product)=>{
     addCart(product)
+    setIsFavorite(true) 
     // getAllCart()
     }
     return (
@@ -30,7 +40,12 @@ const BrandDetails = () => {
           <p>Specification:{product.Specification}</p>
           <p>Availability:{product.availability}</p>
           <p>Rating:{product.rating}</p>
-          <button onClick={()=>handleAddCart(product)} className='btn bg-purple-600'>Add To Cart</button>
+         
+          {/* add cart button */}
+         
+          <button
+           disabled = {isFavorite}
+          onClick={()=>handleAddCart(product)} className='btn bg-purple-600'>Add To Cart</button>
            
         </div>
     );

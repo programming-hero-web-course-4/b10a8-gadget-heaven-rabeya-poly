@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 //get all product from local storage
 const getAllCart = () =>{
     const all = localStorage.getItem('cart')
@@ -17,10 +18,11 @@ const addCart = (product) =>{
     //get all previous saved product
     const cart = getAllCart()
     const isExist = cart.find(item =>item.id == product.id)
-    if(isExist) return alert('Already exist')
+    if(isExist) return toast.error('Cart Successfully already exit!');
 
     cart.push(product)
     localStorage.setItem('cart',JSON.stringify(cart))
+    toast.success('Successfully Added!');
 }
 
 //remove a product from local storage
